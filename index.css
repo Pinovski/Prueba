@@ -1,0 +1,9 @@
+.pregunta {}
+
+.pregunta-correcta {
+    color: green;
+}
+
+.pregunta-incorrecta {
+    color: red;
+}

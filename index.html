@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div id="p1">
+
+        <p>Django pertenece a Back-end</p>
+
+        <button onclick="verificar('p1', true)">Verdadero</button>
+        <button onclick="verificar('p1', false)">Falso</button>
+    </div>
+    <div id="p2">
+
+        <p> CSS altera el contenido y el comportamiento del documento</p>
+
+        <button onclick="verificar('p2', true)">Verdadero</button>
+        <button onclick="verificar('p2', false)">Falso</button>
+    </div>
+
+    <div id="p3">
+        <p>React ha ido perdiendo protagonismo con el paso de los años</p>
+
+        <button onclick="verificar('p3', true)">Verdadero</button>
+        <button onclick="verificar('p3', false)">Falso</button>
+    </div>
+
+    <div id="p4">
+        <p>Angular usa DOM Real</p>
+        <button onclick="verificar('p4', true)">Verdadero</button>
+        <button onclick="verificar('p4', false)">Falso</button>
+    </div>
+
+    <div id="p5">
+        <p>Existe consenso entre programadores a la hora de considerar DOM Virtual como imprescindible</p>
+
+        <button onclick="verificar('p5', true)">Verdadero</button>
+        <button onclick="verificar('p5', false)">Falso</button>
+    </div>
+
+    <script src="checker.js"></script>
+</body>
+
+</html>
+
+<!--
+## Un test de 5 preguntas verdadero/falso.
+
+- Las preguntas pueden ser de cualquier tipo relacionadas con el tema 1 visto en las clases.
+- Si el usuario hace click en verdadero la frase se pone en verde, por el contrario se pondria en rojo.
+- No se permite repetir preguntas vistas en el test realizado en clase.
+
+Dos ficheros: uno HTML y uno JS
+Subir los ficheros en ZIP o RAR
+-->
